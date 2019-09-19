@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71CD65802333C58B00CED536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CD657F2333C58B00CED536 /* AppDelegate.swift */; };
-		71CD65822333C58B00CED536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CD65812333C58B00CED536 /* ViewController.swift */; };
+		71CD65822333C58B00CED536 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CD65812333C58B00CED536 /* Controller.swift */; };
 		71CD65852333C58B00CED536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CD65832333C58B00CED536 /* Main.storyboard */; };
 		71CD65872333C58D00CED536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CD65862333C58D00CED536 /* Assets.xcassets */; };
 		71CD658A2333C58D00CED536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CD65882333C58D00CED536 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		71CD657C2333C58B00CED536 /* mvc-ifyme-capn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvc-ifyme-capn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CD657F2333C58B00CED536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71CD65812333C58B00CED536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71CD65812333C58B00CED536 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		71CD65842333C58B00CED536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71CD65862333C58D00CED536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71CD65892333C58D00CED536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,38 @@
 		71CD657E2333C58B00CED536 /* mvc-ifyme-capn */ = {
 			isa = PBXGroup;
 			children = (
+				71CD65932333CDBF00CED536 /* Model */,
+				71CD65922333CDB800CED536 /* View */,
+				71CD65912333CD9F00CED536 /* Controller */,
 				71CD657F2333C58B00CED536 /* AppDelegate.swift */,
-				71CD65812333C58B00CED536 /* ViewController.swift */,
 				71CD65832333C58B00CED536 /* Main.storyboard */,
 				71CD65862333C58D00CED536 /* Assets.xcassets */,
 				71CD65882333C58D00CED536 /* LaunchScreen.storyboard */,
 				71CD658B2333C58D00CED536 /* Info.plist */,
 			);
 			path = "mvc-ifyme-capn";
+			sourceTree = "<group>";
+		};
+		71CD65912333CD9F00CED536 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71CD65812333C58B00CED536 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71CD65922333CDB800CED536 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71CD65932333CDBF00CED536 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CD65822333C58B00CED536 /* ViewController.swift in Sources */,
+				71CD65822333C58B00CED536 /* Controller.swift in Sources */,
 				71CD65802333C58B00CED536 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
